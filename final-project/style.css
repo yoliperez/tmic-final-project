@@ -1,0 +1,57 @@
+.header {
+    font-family: 'Metal Mania';
+    font-weight: 900;
+    font-size: 300%;
+    color: maroon;
+    font-size: 75px;
+    text-align: center;
+}
+
+body {
+    background-color: #FCFEF6;
+}
+
+.paragraph {
+    width: 500px;
+}
+
+.myDiv {
+    border: 5px outset rgba(108, 12, 12, 0.542);
+    background-color: grey;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+a:link,
+a:visited {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #b61005;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.3s;
+    flex-grow: 4;
+    /* default 0 */
+}
+
+.container {
+    height: 200px;
+    position: relative;
+    border: 3px solid grey;
+}
+
+.about-me {
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #130909;
+}
+
+img {
+    -webkit-box-reflect: right;
+    align-items: center;
+}
