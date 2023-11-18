@@ -1,11 +1,6 @@
-.about-box {
-    word-wrap: normal;
-    text-overflow: initial;
-}
-
 a:link,
 a:visited {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Metal Mania';
     display: inline-block;
     padding: 10px 20px;
     text-align: center;
@@ -19,14 +14,24 @@ a:visited {
 }
 
 .article-image {
-    width: 250px;
+    width: 150px;
     float: right;
     margin-left: 13px;
+    padding: 7px;
+}
+
+.article-image2 {
+    width: 150px;
+    float: left;
+    margin-right: 13px;
+    padding: 7px;
 }
 
 .article-text {
+    margin-top: -2%;
     width: 700px;
     text-align: justify;
+    font-family: sans-serif;
 }
 
 body {
@@ -34,36 +39,58 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Courier', sans-serif;
+    padding: 20px;
+    font-family: sans-serif;
     700px;
 }
 
 .button-names {
+    font-family: 'Metal Mania';
     font-size: 30px;
     700px;
 }
 
-.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
+.flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    border: 25px outset rgba(161, 24, 24, 0.542);
+    background-color: black;
+    font-family: Nosifer;
+    font-size: 20px;
+    text-align: center;
+    width: 650px;
 }
 
-.gallery:hover {
-    border: 1px solid #777;
-}
-
-.header-one {
+.header {
     margin: 0;
     padding-top: 20px;
-    font-family: 'Metal Mania';
-    font-weight: 300;
-    font-size: 200%;
+    font-family: 'nosifer';
+    font-size: 100%;
     color: maroon;
-    font-size: 105px;
+    font-size: 75px;
     text-align: center;
+    flex-wrap: shrink;
+    width: 500px;
+}
+
+.header {
+    text-align: center;
+    flex-wrap: shrink;
     width: 700px;
+    --s: 50px;
+    --c: #191b22;
+    --_s: calc(2*var(--s)) calc(2*var(--s));
+    --_g: 35.36% 35.36% at;
+    --_c: #0000 66%, #20222a 68% 70%, #0000 72%;
+    background:
+        radial-gradient(var(--_g) 100% 25%, var(--_c)) var(--s) var(--s)/var(--_s),
+        radial-gradient(var(--_g) 0 75%, var(--_c)) var(--s) var(--s)/var(--_s),
+        radial-gradient(var(--_g) 100% 25%, var(--_c)) 0 0/var(--_s),
+        radial-gradient(var(--_g) 0 75%, var(--_c)) 0 0/var(--_s),
+        repeating-conic-gradient(var(--c) 0 25%, #0000 0 50%) 0 0/var(--_s),
+        radial-gradient(var(--_c)) 0 calc(var(--s)/2)/var(--s) var(--s) var(--c);
+    background-attachment: fixed;
 }
 
 img {
@@ -76,7 +103,7 @@ img {
 .myDiv {
     border: 25px outset rgba(161, 24, 24, 0.542);
     background-color: black;
-    ;
+    font-family: Nosifer;
     font-size: 20px;
     text-align: center;
     width: 650px;
@@ -86,7 +113,7 @@ img {
     font-size: 1.5em;
     padding-bottom: 10px;
     color: #FCFEF6;
-    font-family: cursive;
+    font-family: 'Metal Mania';
     padding-top: 10px;
     padding-right: 20px;
     padding-bottom: 0px;
@@ -97,12 +124,4 @@ img {
 
 .quote-border {
     width: 700px;
-}
-
-.sub-header {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif font-size: 40px;
-    text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: none;
 }
