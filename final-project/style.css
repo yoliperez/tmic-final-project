@@ -1,57 +1,108 @@
-.header {
-    font-family: 'Metal Mania';
-    font-weight: 900;
-    font-size: 300%;
-    color: maroon;
-    font-size: 75px;
-    text-align: center;
-}
-
-body {
-    background-color: #FCFEF6;
-}
-
-.paragraph {
-    width: 500px;
-}
-
-.myDiv {
-    border: 5px outset rgba(108, 12, 12, 0.542);
-    background-color: grey;
-    font-size: 25px;
-    text-align: center;
-    border-radius: 6px;
+.about-box {
+    word-wrap: normal;
+    text-overflow: initial;
 }
 
 a:link,
 a:visited {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: inline-block;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
-    color: #ffffff;
-    background-color: #b61005;
+    color: #FCFEF6;
+    background-color: black;
     border-radius: 6px;
-    outline: none;
     transition: 0.3s;
-    flex-grow: 4;
+    flex-grow: 5;
     /* default 0 */
 }
 
-.container {
-    height: 200px;
-    position: relative;
-    border: 3px solid grey;
+.article-image {
+    width: 250px;
+    float: right;
+    margin-left: 13px;
 }
 
-.about-me {
+.article-text {
+    width: 700px;
+    text-align: justify;
+}
+
+body {
+    background-color: #FCFEF6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier', sans-serif;
+    700px;
+}
+
+.button-names {
+    font-size: 30px;
+    700px;
+}
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.header-one {
+    margin: 0;
+    padding-top: 20px;
+    font-family: 'Metal Mania';
+    font-weight: 300;
+    font-size: 200%;
+    color: maroon;
+    font-size: 105px;
     text-align: center;
-    text-decoration: none;
-    color: #ffffff;
-    background-color: #130909;
+    width: 700px;
 }
 
 img {
-    -webkit-box-reflect: right;
-    align-items: center;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    width: 700px;
+}
+
+.myDiv {
+    border: 25px outset rgba(161, 24, 24, 0.542);
+    background-color: black;
+    ;
+    font-size: 20px;
+    text-align: center;
+    width: 650px;
+}
+
+.paragraph {
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    color: #FCFEF6;
+    font-family: cursive;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    border-top: solid rgba(161, 24, 24, 0.542) 3px;
+
+}
+
+.quote-border {
+    width: 700px;
+}
+
+.sub-header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif font-size: 40px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: none;
 }
